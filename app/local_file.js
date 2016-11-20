@@ -1,7 +1,9 @@
+let path = require('path');
 let connect = require('connect');
 let scfs = new (require("simple-cors-file-server"))();
 let serveStatic = require('serve-static');
 let escaped_str = require('querystring');
+var address = require('network-address');
 
 let helpers = require('./helpers');
 let appleTV = require('./appleTV');

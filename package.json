@@ -24,6 +24,7 @@
     "airplay-js": "guerrerocarlos/node-airplay-js",
     "connect": "^3.5.0",
     "jquery": "^3.1.1",
+    "network-address": "^1.1.0",
     "numeral": "^1.5.3",
     "peerflix": "^0.36.0",
     "querystring": "^0.2.0",
